@@ -8,5 +8,6 @@
 package bankservice;
 
 public interface MyService extends java.rmi.Remote {
+    public bankservice.Account deposit(java.lang.String arg0, java.lang.String arg1, double arg2, java.lang.String arg3) throws java.rmi.RemoteException;
     public bankservice.Account createAccount(bankservice.Account arg0) throws java.rmi.RemoteException;
 }

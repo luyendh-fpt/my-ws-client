@@ -11,4 +11,12 @@
         <servlet-name>RegisterController</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>DepositController</servlet-name>
+        <servlet-class>myclient.controller.DepositController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DepositController</servlet-name>
+        <url-pattern>/deposit</url-pattern>
+    </servlet-mapping>
 </web-app>
